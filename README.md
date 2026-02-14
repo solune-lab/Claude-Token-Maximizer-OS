@@ -92,9 +92,9 @@ This is the soul of the entire development process. It elevates the AI Agent fro
 
 ---
 
-## 🌟 Support & Connect
+## 💫 Support & Connect
 
-If this workflow saved your tokens (and your sanity), please give this repository a **Star**! It tells me that "frugal development" is a path worth pursuing.
+If this workflow saved your tokens (and your sanity), please give this repository a 🌟**Star**! It tells me that "frugal development" is a path worth pursuing.
 
 ### 📢 Stay Updated
 I share more about **Vibe Coding**, AI automation, and my journey to "zero-friction" development here:
