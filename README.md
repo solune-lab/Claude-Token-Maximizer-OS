@@ -10,9 +10,9 @@ I’m a Vibe Coder, and I’m extremely frugal with my AI quota—which also mak
 
 For example: I just wanted to move two components closer together and reduce the white space. It was such a simple instruction. Yet, even using the most powerful coding models, the UI wouldn't budge after 5 or 6 attempts. Worse, it would randomly mess up the shapes of my components, leaving me with a pile of "spaghetti code."
 
-This communication gap led to more and more unexpected bugs, vanishing my quota in less than 30 minutes due to endless, pointless revisions.
+This communication gap led to more and more unexpected bugs, vanishing my quota in less than 30 minutes due to endless, pointless revisions. It was beyond belief.
 
-This pipeline isn't about showing off. It’s a **survival kit** I organized to stay within budget limits. It turned my messy thoughts into a smooth, stable development process and cured my anxiety about token consumption. (True story.)
+This pipeline isn't about showing off. It’s a **survival kit** I organized to stay within my budget limits. It turned my messy thoughts into a smooth, stable development process and cured my anxiety about token consumption. (True story.)
 
 ---
 
@@ -31,7 +31,7 @@ It’s about the **Logic**, not just the tool.
 This is the complete path I built to save my own development process. Every phase is designed to make the journey stable and frictionless.
 
 * [✅] **Phase 1: Brain (Vibe Coding Rules)** – Specialized Instruction Specifications that elevate AI Agents to Senior Engineers. (Released!)
-* [✅] **Phase 2: Nerve (🧩 20+ Verified Glue Code Puzzles)** – Pre-verified modular templates to avoid coding from scratch. [Get Puzzles](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00) (Released!)
+* [✅] **Phase 2: Nerve (🧩 20+ Verified Glue Code Puzzles)** – Pre-verified modular templates to avoid coding from scratch. [Get Puzzles & Lifetime Updates](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00) (Released!)
 * [✅] **Phase 3: Mouth (Vibe Coding Translator)** – The communication bridge between humans and AI. [Try Tool Now](https://soluneai.com/vibe-coding-translator/) (Released!)
 * [⌛] **Phase 4: Body (PRD Master)** – Requirement & Architecture builder. (80% Complete)
 * [⌛] **Phase 5: Eyes (Auto Money Flow)** – All-in-one monetization guide. (80% Complete)
@@ -42,20 +42,31 @@ This is the complete path I built to save my own development process. Every phas
 This is the soul of the entire process. It elevates the AI Agent from a "chatbot" to a self-aware **"Senior Engineer"** with full autonomous authority.
 
 ### 🚧 5 Mandatory Delivery Gates
-* **Root Cause Analysis**: AI must answer: Root cause, Reproduction, and Regression risk. No blind patching.
-* **Autonomous Obstacle Handling**: AI must proactively resolve environment blockers instead of skipping steps.
-* **No Screenshot, No Delivery**: Every UI modification requires mandatory visual proof and verification reports.
+* **Root Cause Analysis**: Before any fix, the AI must answer 3 critical questions: Root cause, Reproduction conditions, and Regression risk. No blind patching allowed.
+* **Autonomous Obstacle Handling**: The AI must proactively resolve environment blockers (e.g., executing `pkill` to reset stale processes) instead of skipping steps or asking for help.
+* **No Screenshot, No Delivery**: Every UI modification requires a mandatory **Playwright** End-to-End test with a formal Verification Report and visual proof.
 
 ### 🧩 Glue Code Automation & Retrieval
-* **Local Library Priority**: AI must scan `.specify/memory/glue-library/` for existing "puzzle pieces" to ensure stability and save tokens.
-* **Smart Storage Rules**: AI automatically extracts generic templates for future use if code meets the "3-project reuse" criteria.
+* **Local Library Priority**: Before writing new code, the AI must scan `.specify/memory/glue-library/` to match existing "puzzle pieces". Reusing verified modules is mandatory to ensure stability and save tokens.
+* **Smart Storage Rules**: After development, the AI automatically evaluates if the code has cross-project value. If it passes the "3-project reuse" criteria, it is extracted into a generic template for future use.
+
+### ⚡ Infrastructure & Deployment Authority
+* **Infrastructure Agent**: The AI autonomously analyzes requirements (e.g., Auth, Payments) and configures the necessary stack (Supabase, Stripe, etc.) without waiting for permission.
+* **Zero-Manual Secret Syncing**: Automatically scans `.env` files and syncs secrets to the cloud environment, eliminating the need for manual copy-pasting.
+* **SEO-Optimized Subdirectory Deployment**: Configures a Cloudflare Worker reverse proxy to deploy tools on high-authority subdirectories (e.g., `soluneai.com/tool-name`) for maximum SEO impact.
+
+### 📈 10x Token Efficiency & Project Locking
+* **Project Status Tracking (`PROJECT-STATUS.md`)**: The AI maintains a strict status board, locking completed PRD chapters. This prevents "memory loss" between sessions.
+* **The "Opus Effect"**: Since implementing this methodology, using the premium **Opus 4.6** model actually consumes less quota than **Sonnet 4.5** did previously without it.
 
 ---
 
 ## 🧩 B. Nerve: Glue Code Puzzles (Quick Start)
-[Get the 20+ Verified Templates](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00)
+[Get the 20+ Verified Templates & Lock-in Price](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00)
 
-To make your AI Agent "remember" these verified logic puzzles, it's simple:
+> **🔥 Early Bird Offer:** Currently featuring **20+ essential puzzles**. We are continuously updating this library toward a goal of **100+ verified modules**. 
+> 
+> **Buy now ($49) to lock in this price.** As we add more content, the price will increase significantly. All future updates are **FREE** for existing buyers via your original download link.
 
 1. **Download**: You will get a folder containing the `.specify` structure.
 2. **Installation**: Drop the `.specify` folder directly into your **Project Root Directory**.
@@ -66,34 +77,36 @@ To make your AI Agent "remember" these verified logic puzzles, it's simple:
 ## 👄 C. Mouth: Vibe Coding Translator
 [Try Tool Now](https://soluneai.com/vibe-coding-translator/)
 
-**The Problem**: Humans speak in "vibes," but AI operates on "logic." 
+**The Problem**: Humans speak in "vibes," but AI operates on "logic." When you say "make this look better," AI often guesses blindly.
 
-* **Communication Bridge**: Translates your natural language into precise, industrial-grade AI instructions.
-* **Surgical Precision**: Strictly prevents unintended side effects or broken styles in other areas.
+* **Communication Bridge**: Translates your natural language into precise, industrial-grade AI instructions with built-in coordinate offsets and scope locking.
+* **Surgical Precision**: Ensures the AI only modifies the specific components you intended, strictly preventing unintended side effects or broken styles in other areas.
 
 ---
 
 ## 🏗️ D. Body: PRD Master [⌛ 80%]
-* **Conversational Architect**: Transforms scattered ideas into a professional, standardized PRD.
-* **Visual Logic**: Generates flowcharts to ensure humans and AI are perfectly aligned.
-* **Modular Chaptering**: Allows AI Agents to build your tool chapter-by-chapter with zero friction.
+**The Problem**: Starting without a plan is a developer's nightmare. Without structured guidance, AI Agents easily lose track in long conversations.
+
+* **Conversational Architect**: Gathers your scattered ideas through interactive chat and transforms them into a professional, structured PRD.
+* **Visual Logic with Mermaid**: Automatically generates **Mermaid flowcharts** to visualize complex user journeys and system logic.
+* **Modular Chaptering**: Breaks down your project into "locked" chapters based on the **Vibe Coding Rules**, allowing AI Agents to build your tool chapter-by-chapter with zero friction.
+* **Built-in Security DNA**: Pre-integrates essential frameworks like **Device Fingerprinting** and anti-abuse logic directly into the design phase.
 
 ---
 
 ## 👁️ E. Eyes: Auto Money Flow [⌛ 80%]
-* **End-to-End Profitability**: A roadmap covering market research, pricing strategies, and marketing copy.
-* **Scientific Pricing**: Logic based on pricing psychology (e.g., Integer pricing for professional tools, .99 for entertainment).
-* **Market-Driven**: Ensures every line of code is directed toward a verified market need.
+**The Problem**: Stops developers from **"building in a vacuum."** * **End-to-End Profitability Path**: Provides a complete roadmap covering market research, feature planning, pricing strategies, and marketing copy.
+* **Market-Driven Recommendations**: Analyzes your technical stack to recommend high-demand tools that are actually viable.
+* **Scientific Pricing Strategy**: Incorporates pricing psychology to maximize conversions (e.g., **Integer pricing** for professional tools to build trust, or **.99 endings** for entertainment-oriented tools).
+* **No More "Self-Amusement"**: Ensures every line of code you write is directed toward a verified market need.
 
 ---
 
 ## 🌟 Support & Connect
 
-If this workflow saved your tokens (and your sanity), please give this repository a **Star**! It tells me that "frugal development" is a path worth pursuing.
+If this workflow saved your tokens (and your sanity), please give this repository a **Star**!
 
 ### 📢 Stay Updated
-I share more about **Vibe Coding**, AI automation, and my journey to "zero-friction" development here:
-
 * **Twitter / X**: [@soluneai](https://x.com/soluneai)
 * **Threads**: [@soluneai_com](https://www.threads.net/@soluneai_com)
 
