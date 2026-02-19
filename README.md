@@ -97,6 +97,8 @@ This is the soul of the entire process. It elevates the AI Agent from a "chatbot
 * **Communication Bridge**: Translates your natural language into precise, industrial-grade AI instructions with built-in coordinate offsets and scope locking.
 * **Surgical Precision**: Ensures the AI only modifies the specific components you intended, strictly preventing unintended side effects or broken styles in other areas.
 
+> 💡 **Pro Tip**: Use **Specs** for rigid logic, complex UI layouts, and architecture; use **Natural Language** when you need the AI to capture creative nuances, tone, or "vibes" that rigid structures might strip away.
+
 ---
 
 ## 🏗️ D. Body: PRD Master [⌛ 80%]
