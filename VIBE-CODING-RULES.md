@@ -216,54 +216,6 @@ PRD: {root}/docs/chapters/ or {root}/specs/
 
 ---
 
-## Testing Requirements
-
-**Core principle**: Tests MUST verify "what user sees in UI", NOT just "API response"
-
-### Test Levels
-
-| Level | Verify | When | Example |
-|-------|--------|------|---------|
-| **E2E (required)** | Final UI result user sees | All frontend features | Credits balance updates after payment |
-| Integration | API request/response | Backend-only | API returns correct JSON |
-| Unit | Function logic | Utility functions | formatDate output |
-
-### E2E Test Standards
-
-1. Simulate complete user flow, no skipping steps
-2. Assertion target = UI element user sees, NOT console.log or API response
-3. State-changing features: verify UI before AND after the change
-
-### Third-party Service Testing
-
-| Service | Automated approach | When not automatable |
-|---------|-------------------|---------------------|
-| Stripe payment | Test mode + test card | Manual test + screenshot |
-| OAuth login | Mock provider response | Manual test + screenshot |
-| External API | Mock response | Manual test + screenshot |
-
-### Test Flow
-
-```
-Feature done → Write E2E test (verify UI) → Run test
-    ↓ fail? → Fix CODE (not test) → Re-run
-    ↓ pass? → Run "user perspective" full flow once
-    ↓ → Include in Verification Report
-```
-
-### Forbidden
-
-| Forbidden | Reason |
-|-----------|--------|
-| Claim done with API-only test | API ok does not mean UI ok |
-| Pass test without UI verification | Test may miss critical path |
-| Modify test to pass | Fix code, not test |
-| Skip third-party service test | Must manual test + provide proof |
-
-**Test location**: `{project}/tests/*.spec.ts`
-
----
-
 ## Context Optimization
 
 - Read only needed sections
@@ -282,13 +234,13 @@ Feature done → Write E2E test (verify UI) → Run test
 
 **Before generating any new logic or components, you MUST execute the following pre-action check:**
 
-1. **Scan Local Library**: Index the `.specify/memory/glue-library/` folder.
+1. **Scan Local Library**: Read `~/.claude/.specify/memory/glue-library/index.json`, search by keywords.
 2. **Match Patterns**: Compare current requirements with existing files in the library (e.g., Auth flows, Stripe webhooks, Cloudflare D1 queries).
-3. **Usage Rule**: 
+3. **Usage Rule**:
    - If a matching or partial matching "puzzle piece" exists: **USE IT**. Do not re-write from scratch. Modify only necessary variables.
    - If NO match is found: Proceed to write new code, ensuring it follows the strict rules defined in this document.
 4. **Efficiency Goal**: Prioritize using pre-verified glue code to save Tokens and ensure compatibility with Edge Runtime.
-5. **No External Search**: Do NOT search the web for code libraries. Only use local `.specify/memory/glue-library/` or your internal knowledge base. If it's not in the library, build it now and save it for later.
+5. **Auto-sync**: When saving a new template to `~/.claude/.specify/memory/glue-library/templates/`, MUST update `index.json` in the same operation — add entry with id, name, category, path, keywords, tech_stack, quality_score.
 
 ### Decision (5 sec)
 ```
@@ -298,7 +250,7 @@ Requirement → Quick assess →
 ```
 
 ### Search Priority
-1. Local templates: `.specify/memory/glue-library/`
+1. Local templates: `~/.claude/.specify/memory/glue-library/`
 2. Official docs (URLs below)
 3. GitHub (stars>1000, updated <6mo)
 4. npm (weekly downloads>10k)
@@ -364,7 +316,7 @@ Can this be used in 3+ projects?
 1. Quick check (5 sec): reusable in 3+ projects?
 2. Extract generic parts, remove project logic
 3. Use variable placeholders
-4. Save to `.specify/memory/glue-library/templates/{category}/{name}.json`
+4. Save to `~/.claude/.specify/memory/glue-library/templates/{category}/{name}.json`
 5. Update `index.json`, initial `quality_score = 0.5`
 
 ### Efficiency Principle
@@ -507,20 +459,6 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
 
 ---
 
-## Error Handling
-
-```ts
-try {
-  const result = await operation()
-  return { success: true, data: result }
-} catch (error) {
-  console.error(error)
-  return { success: false, error: 'Operation failed' }
-}
-```
-
----
-
 ## Execution Rules
 
 - Auto-execute without confirmation
@@ -540,30 +478,6 @@ try {
 **These 3 questions must be answered BEFORE writing any code. No exceptions.**
 
 If a bug has appeared before: treat it as a signal that the root cause was never fixed — do a deeper architectural analysis, not another patch.
-
----
-
-## Time Estimation (Required Before Long Ops)
-
-| Operation | Duration |
-|-----------|----------|
-| Read/search files | 1-5 sec |
-| Simple Bash | 1-10 sec |
-| npm install | 30 sec - 3 min |
-| Run tests | 30 sec - 5 min |
-| Complex tasks | Provide breakdown |
-
-Format: "This operation takes approximately X minutes, you can take a break."
-
----
-
-## Alignment Workflow
-
-| Phase | Action |
-|-------|--------|
-| 1. Clarify | Ask specific questions, no assumptions. Use examples. Confirm PRD before coding. |
-| 2. Validate (optional) | Search market, report competitors/reviews, user decides direction |
-| 3. Verify | After each feature, verify result matches requirement. Check PRD checklist before delivery. |
 
 ---
 
