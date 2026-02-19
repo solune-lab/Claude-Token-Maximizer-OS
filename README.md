@@ -29,7 +29,7 @@ This pipeline isn't about showing off. It’s a **survival kit** I organized to 
 
 ---
 
-## 🚀 Compatibility: Works with ALL AI Tools
+## 🌈 Compatibility: Works with ALL AI Tools
 This system is **completely Tool-Agnostic**. While it delivers 10x efficiency for **Claude Code**, the MD rules and logic puzzles work flawlessly with **EVERY AI coding tool**, including:
 * **Cursor / Windsurf / Trae**
 * **Bolt.new / Lovable / Replit**
