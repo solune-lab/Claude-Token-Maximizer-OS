@@ -17,7 +17,7 @@
 ---
 
 ### 🚀 Quick Start
-1. Copy the content of `vibe-coding-rules.md`.
+1. **[Get the Rules here](https://github.com/solune-lab/the-vibe-stack/blob/main/VIBE-CODING-RULES.md)** (Copy or Download the `VIBE-CODING-RULES.md` file).
 2. **For Claude Code**: Place it in `~/.claude/CLAUDE.md` (global, works across all projects) or your project root `CLAUDE.md` (project-specific only).
 3. **For Cursor/Windsurf**: Add it to your `.cursorrules` or Project Settings.
 4. Watch your agent follow strict verification gates before every delivery.
