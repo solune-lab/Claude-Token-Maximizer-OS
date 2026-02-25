@@ -66,6 +66,20 @@ Before delivering ANY feature, you MUST:
 3. Wait for async to complete (`browser_wait_for`)
 4. Verify final UI state with `browser_snapshot` + screenshot
 
+**⛔ 流程測試的 API 覆蓋要求（CRITICAL — 這是上一次測試失敗的根本原因）:**
+
+設定 localStorage 前置條件只覆蓋了「初始狀態」。如果流程裡在 trigger 之後還有 **後續 async API 呼叫**（例如 polling、onAuthStateChange、webhook 等），這些 API 的回傳行為也必須被覆蓋。
+
+**判斷方法：** 問自己「這段修改的程式碼，在 redirect/trigger 之後還會發出 API request 嗎？」
+- YES → 必須用 `page.route()` 攔截並 mock API 回傳值，然後等待那些呼叫真的跑完
+- NO → localStorage 設定就夠了
+
+**禁止：** 只設定 localStorage/sessionStorage 就認為流程測試完成，而修改的程式碼後續還有沒被覆蓋的 API 呼叫。
+
+範例（paywall race condition）：
+- BAD: 設定 `localStorage.user.tier = 'free'` → 導航到 `?checkout=success` → 看到 elite → 交付
+- GOOD: 同上，**加上** `page.route('/api/profile', mock({ tier: 'free' }))` → 等待多次 polling → 確認 tier 仍是 elite → 才交付
+
 **If Playwright Chrome fails to launch:**
 1. Run `pkill -f "mcp-chrome"` to kill stale instances
 2. Retry navigate — do NOT skip testing and deliver unverified code
