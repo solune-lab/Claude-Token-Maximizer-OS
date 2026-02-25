@@ -11,6 +11,11 @@
 
 > "Now that I’m using the most expensive Opus 4.6, I actually feel like I have more quota than I did with Sonnet 4.5."
 
+---
+### 🔗 Core Components
+**[👄 Vibe to Spec (App)](https://soluneai.com/vibe-to-spec)** | **[📄 Specification Engine (Repo)](https://github.com/solune-lab/vibe-to-spec)** | **[🧩 Glue Code Puzzles](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00)**
+---
+
 ### 🚀 Quick Start
 1. Copy the content of `vibe-coding-rules.md`.
 2. **For Claude Code**: Place it in `~/.claude/CLAUDE.md` (global, works across all projects) or your project root `CLAUDE.md` (project-specific only).
@@ -119,11 +124,13 @@ This is the soul of the entire process. It elevates the AI Agent from a "chatbot
 
 ---
 
-Contributing: Have a better rule or a logic puzzle? PRs are always welcome! Let's build the ultimate Vibe Coding protocol together.
+## 🤝 Contributing
+
+Have a template or a logic improvement? PRs are always welcome! 
 
 ## 🌟 Support & Connect
 
-If this workflow saved your tokens (and your sanity), please give this repository a **Star**!
+If this workflow saved your tokens (and your sanity), please give this repository a 💫**Star**!
 
 ### 📢 Stay Updated
 * **Twitter / X**: [@soluneai](https://x.com/soluneai)
