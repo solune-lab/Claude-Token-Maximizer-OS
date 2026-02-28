@@ -13,7 +13,7 @@
 
 ---
 ### 🔗 Core Components
-**[👄 Vibe Coding Translator (App)](https://soluneai.com/vibe-to-spec)** | **[📄 Specification Engine (Repo)](https://github.com/solune-lab/vibe-to-spec)** | **[🧩 Glue Code Puzzles](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00)**
+**[👄 Vibe Coding Translator (App)](https://soluneai.com/vibe-coding-translator/)** | **[📄 Instruction Engine (Repo)](https://github.com/solune-lab/vibe-coding-translator)** | **[🧩 Glue Code Puzzles](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00)**
 ---
 
 ### 🚀 Quick Start
@@ -48,9 +48,9 @@ It’s about the **Logic**, not just the tool.
 ## 🗺️ Roadmap
 This is the complete path I built to save my own development process. Every phase is designed to make the journey stable and frictionless.
 
-* [✅] **Phase 1: Brain (Vibe Coding Rules)** – Specialized Instruction Specifications that elevate AI Agents to Senior Engineers. (Released!)
+* [✅] **Phase 1: Brain (Vibe Coding Rules)** – Specialized Instruction Sets that elevate AI Agents to Senior Engineers. (Released!)
 * [✅] **Phase 2: Nerve (🧩 20+ Verified Glue Code Puzzles)** – Pre-verified modular templates to avoid coding from scratch. [Get Puzzles & Lifetime Updates](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00) (Released!)
-* [✅] **Phase 3: Mouth (Vibe Coding Translator)** – The communication bridge between humans and AI. [Try Tool Now](https://soluneai.com/vibe-to-spec) (Released!) | [GitHub Repository](https://github.com/solune-lab/vibe-to-spec)
+* [✅] **Phase 3: Mouth (Vibe Coding Translator)** – The precision bridge that converts vibes into structured AI instructions. [Try Tool Now](https://soluneai.com/vibe-coding-translator/) (Released!) | [GitHub Repository](https://github.com/solune-lab/vibe-coding-translator)
 * [⌛] **Phase 4: Body (PRD Master)** – Requirement & Architecture builder. (80% Complete)
 * [⌛] **Phase 5: Eyes (Auto Money Flow)** – All-in-one monetization guide. (80% Complete)
 
@@ -62,7 +62,7 @@ This is the soul of the entire process. It elevates the AI Agent from a "chatbot
 ### 🚧 5 Mandatory Delivery Gates
 * **Root Cause Analysis**: Before any fix, the AI must answer 3 critical questions: Root cause, Reproduction conditions, and Regression risk. No blind patching allowed.
 * **Autonomous Obstacle Handling**: The AI must proactively resolve environment blockers (e.g., executing `pkill` to reset stale processes) instead of skipping steps or asking for help.
-* **No Screenshot, No Delivery**: Every UI modification requires a mandatory **Playwright** End-to-End test with a formal Verification Report and visual proof.
+* **No Visual Proof, No Delivery**: Every UI modification requires a mandatory **Playwright** End-to-End test with a formal Verification Report and visual proof.
 
 ### 🧩 Glue Code Automation & Retrieval
 * **Local Library Priority**: Before writing new code, the AI must scan `.specify/memory/glue-library/` (Cursor/Windsurf: project root) or `~/.claude/.specify/memory/glue-library/` (Claude Code: global) to match existing "puzzle pieces". Reusing verified modules is mandatory to ensure stability and save tokens.
@@ -72,10 +72,6 @@ This is the soul of the entire process. It elevates the AI Agent from a "chatbot
 * **Infrastructure Agent**: The AI autonomously analyzes requirements (e.g., Auth, Payments) and configures the necessary stack (Supabase, Stripe, etc.) without waiting for permission.
 * **Zero-Manual Secret Syncing**: Automatically scans `.env` files and syncs secrets to the cloud environment, eliminating the need for manual copy-pasting.
 * **SEO-Optimized Subdirectory Deployment**: Configures a Cloudflare Worker reverse proxy to deploy tools on high-authority subdirectories (e.g., `soluneai.com/tool-name`) for maximum SEO impact.
-
-### 📈 10x Token Efficiency & Project Locking
-* **Project Status Tracking (`PROJECT-STATUS.md`)**: The AI maintains a strict status board, locking completed PRD chapters. This prevents "memory loss" between sessions.
-* **The "Opus Effect"**: Since implementing this methodology, using the premium **Opus 4.6** model actually consumes less quota than **Sonnet 4.5** did previously without it.
 
 ---
 
@@ -95,14 +91,14 @@ This is the soul of the entire process. It elevates the AI Agent from a "chatbot
 ---
 
 ## 👄 C. Mouth: Vibe Coding Translator
-[Try Tool Now](https://soluneai.com/vibe-to-spec) | [GitHub Repository](https://github.com/solune-lab/vibe-to-spec)
+[Try Tool Now](https://soluneai.com/vibe-coding-translator/) | [GitHub Repository](https://github.com/solune-lab/vibe-coding-translator)
 
 **The Problem**: Humans speak in "vibes," but AI operates on "logic." When you say "make this look better," AI often guesses blindly.
 
 * **Communication Bridge**: Translates your natural language into precise, industrial-grade AI instructions with built-in coordinate offsets and scope locking.
 * **Surgical Precision**: Ensures the AI only modifies the specific components you intended, strictly preventing unintended side effects or broken styles in other areas.
 
-> 💡 **Pro Tip**: Use **Specs** for rigid logic, complex UI layouts, and architecture; use **Natural Language** when you need the AI to capture creative nuances, tone, or "vibes" that rigid structures might strip away.
+> 💡 **Pro Tip**: Use **Structured Instructions** for rigid logic, complex UI layouts, and architecture; use **Natural Language** when you need the AI to capture creative nuances, tone, or "vibes" that rigid structures might strip away.
 
 ---
 
