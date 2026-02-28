@@ -13,7 +13,7 @@
 
 ---
 ### 🔗 Core Components
-**[👄 Vibe to Spec (App)](https://soluneai.com/vibe-to-spec)** | **[📄 Specification Engine (Repo)](https://github.com/solune-lab/vibe-to-spec)** | **[🧩 Glue Code Puzzles](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00)**
+**[👄 Vibe Coding Translator (App)](https://soluneai.com/vibe-to-spec)** | **[📄 Specification Engine (Repo)](https://github.com/solune-lab/vibe-to-spec)** | **[🧩 Glue Code Puzzles](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00)**
 ---
 
 ### 🚀 Quick Start
@@ -50,7 +50,7 @@ This is the complete path I built to save my own development process. Every phas
 
 * [✅] **Phase 1: Brain (Vibe Coding Rules)** – Specialized Instruction Specifications that elevate AI Agents to Senior Engineers. (Released!)
 * [✅] **Phase 2: Nerve (🧩 20+ Verified Glue Code Puzzles)** – Pre-verified modular templates to avoid coding from scratch. [Get Puzzles & Lifetime Updates](https://buy.stripe.com/bJebJ31MZftmaZTfsg63K00) (Released!)
-* [✅] **Phase 3: Mouth (Vibe To Spec)** – The communication bridge between humans and AI. [Try Tool Now](https://soluneai.com/vibe-to-spec) (Released!) | [GitHub Repository](https://github.com/solune-lab/vibe-to-spec)
+* [✅] **Phase 3: Mouth (Vibe Coding Translator)** – The communication bridge between humans and AI. [Try Tool Now](https://soluneai.com/vibe-to-spec) (Released!) | [GitHub Repository](https://github.com/solune-lab/vibe-to-spec)
 * [⌛] **Phase 4: Body (PRD Master)** – Requirement & Architecture builder. (80% Complete)
 * [⌛] **Phase 5: Eyes (Auto Money Flow)** – All-in-one monetization guide. (80% Complete)
 
@@ -94,7 +94,7 @@ This is the soul of the entire process. It elevates the AI Agent from a "chatbot
 
 ---
 
-## 👄 C. Mouth: Vibe To Spec
+## 👄 C. Mouth: Vibe Coding Translator
 [Try Tool Now](https://soluneai.com/vibe-to-spec) | [GitHub Repository](https://github.com/solune-lab/vibe-to-spec)
 
 **The Problem**: Humans speak in "vibes," but AI operates on "logic." When you say "make this look better," AI often guesses blindly.
